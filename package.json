@@ -1,0 +1,14 @@
+{
+  "name": "momentum-clone",
+  "version": "1.0.0",
+  "description": "Clone of Momentum chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

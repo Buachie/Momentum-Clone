@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        #time {
+            font-size: 7rem;
+            margin: 0;
+        }
+
+        #name {
+            font-size: 4rem;
+        }
+
+        .left {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+        }
+
+        .right {
+            position: absolute;
+            top: 2%;
+            right: 2%;
+        }
+    }
+}
